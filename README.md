@@ -49,8 +49,8 @@ A polished portfolio and a stronger public record of the systems, product decisi
 
 - [LinkedIn](https://www.linkedin.com/in/mylesbscott/)
 - [GitHub](https://github.com/mscott9160-web)
-- Email: replace-with-your-professional-email@example.com
-- Portfolio: coming soon
+- Email: [Mscott9160@outlook.com](mailto:Mscott9160@outlook.com)
+- Portfolio: [Portfolio site repository](https://github.com/mscott9160-web/portfolio-site)
 
 ## Notes for readers
 
