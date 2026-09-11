@@ -1,57 +1,46 @@
 # Myles B. Scott
 
-## Software engineer and product-minded builder
+**Backend engineer working on financial systems and applied AI.**
 
-I build reliable web and mobile experiences across React, TypeScript, Python, FastAPI, Expo, Supabase, and PostgreSQL. My work sits at the intersection of thoughtful product design, clear domain logic, and practical engineering quality.
+I'm a Software Engineer III at USAA, where I lead backend development on the platform that replaced our legacy batch accounting with a real-time, event-driven architecture — Java and Spring Boot APIs, Apache Kafka for bulk payload processing, and Oracle Cloud GL as the system of record. I was the team's first API engineer and established our API development standards.
 
-I am especially interested in teams solving meaningful problems where software needs to be useful, understandable, and ready to grow.
+Lately most of my work is AI in regulated environments: integrating open-source LLMs into runtime accounting services and CI/CD pipelines, a multi-agent development framework modeling a full scrum team, and a read-only MCP server over our general ledger APIs that gives LLM tooling scoped query access with no write path to the ledger.
+
+The projects below are where I build in the same problem space on my own time.
+
+**Java · Spring Boot · Apache Kafka · Python · FastAPI · TypeScript · React · React Native · PostgreSQL · Docker · OpenShift**
 
 ## Selected work
 
 ### [Cash Flow Simulator](https://github.com/mscott9160-web/cash-flow-simulator)
 
-A full-stack cash-flow planning tool that projects daily balances, models business-day settlement rules, and returns constrained, explainable bill-scheduling recommendations.
+Daily cash-flow projection for people who have enough money across the month but still risk going negative on a specific day. Projects daily balances over a 90-day horizon, models real settlement behavior including pay-cycle timing and weekend and federal holiday shifts, and returns a single explainable schedule change — searching only obligations that are genuinely movable.
 
-**React · TypeScript · Vite · Python · FastAPI · Pydantic · SQLite · PostgreSQL · Expo**
+**Python · FastAPI · Pydantic · React · TypeScript · Vite · PostgreSQL · Expo**
 
-Highlights: 38 passing backend tests, a separated pure-Python projection and optimizer engine, shared API contracts across web and mobile, and explicit financial scope boundaries.
+A pure-Python projection and optimizer core with no framework or database dependencies, consumed by both web and mobile clients through one versioned API contract so financial rules are never reimplemented per platform. 38 backend tests plus Playwright end-to-end coverage.
 
 ### [Fade Society](https://github.com/mscott9160-web/fade-society)
 
-A mobile-first barber discovery and booking experience covering the customer journey from discovery through confirmation, with architecture for barbers, studio owners, and platform administrators.
+Multi-role barber marketplace and booking platform serving customers, barbers, studio owners, and platform administrators.
 
 **Expo · React Native · TypeScript · Expo Router · Supabase · PostgreSQL · Vitest**
 
-Highlights: typed domain models, booking state transitions, local double-booking protection, accessibility-aware UI, and a documented path from demo state to server-authoritative operations.
+Typed domain models behind repository interfaces, an end-to-end booking flow with state-machine status transitions, and double-booking protection backed by a transactional PostgreSQL RPC. Currently a demo and architecture foundation with a documented path to server-authoritative operations.
 
 ### [Sneaker Signal](https://github.com/mscott9160-web/sneaker-signal)
 
-A product prototype for verified US sneaker release intelligence, including release tracking, retailer availability, source verification, and a Supabase-backed data foundation.
+Verified US sneaker release intelligence — release tracking, retailer availability, and source verification over a Supabase-backed data foundation.
 
 **React · TypeScript · Vite · Supabase · PostgreSQL**
 
-Highlights: a relational release model, source hierarchy, editorial verification states, row-level security policies, and a production-readiness plan.
+A relational release model with a source hierarchy, editorial verification states, and row-level security policies.
 
-## What I bring
+## What I work on
 
-- Product-minded software engineering
-- Web and mobile application development
-- API and domain-model design
-- Data quality, validation, and clear system boundaries
-- Testing, documentation, and production-readiness thinking
-- Curiosity, ownership, and collaborative problem solving
+- Backend and API design in regulated financial systems
+- Event-driven architecture and high-volume transaction processing
+- LLM integration, agent frameworks, and MCP in production contexts
+- Domain modeling, data quality, and explicit system boundaries
 
-## Currently building
-
-A polished portfolio and a stronger public record of the systems, product decisions, and engineering practices behind these projects.
-
-## Connect
-
-- [LinkedIn](https://www.linkedin.com/in/mylesbscott/)
-- [GitHub](https://github.com/mscott9160-web)
-- Email: [Mscott9160@outlook.com](mailto:Mscott9160@outlook.com)
-- Portfolio: [Portfolio site repository](https://github.com/mscott9160-web/portfolio-site)
-
-## Notes for readers
-
-The repositories above are public and intentionally transparent about what is implemented, what is tested, and what remains before production release. Demo and architecture work is labeled honestly in each project README.
+[LinkedIn](https://www.linkedin.com/in/mylesbscott/)
