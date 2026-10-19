@@ -36,7 +36,7 @@ zero, alongside tenant-scoped caching and a semantic-cache deny-list that
 records an auditable reason for every skip. In active development; the
 contracts and ledger event schema are public.
 
-### [achlens](https://github.com/mscott9160-web/achlens)
+### [Achlens](https://github.com/mscott9160-web/achlens)
 
 A local-first MCP server and CLI for inspecting ACH files. It parses fixed-width
 records, validates structure and control totals, explains what failed and why,
