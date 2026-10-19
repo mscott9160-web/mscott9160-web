@@ -36,6 +36,21 @@ zero, alongside tenant-scoped caching and a semantic-cache deny-list that
 records an auditable reason for every skip. In active development; the
 contracts and ledger event schema are public.
 
+### [achlens](https://github.com/mscott9160-web/achlens)
+
+A local-first MCP server and CLI for inspecting ACH files. It parses fixed-width
+records, validates structure and control totals, explains what failed and why,
+masks sensitive fields, repairs derived controls, and generates deterministic
+synthetic files for testing. It never transmits a file or makes a network call.
+
+**Python · MCP · pytest · uv**
+
+Built as a tolerant parser behind a strict validator, so a malformed file still
+produces a readable diagnosis instead of an exception. Account numbers and
+identification fields are masked by default, and both reveal and filesystem
+access are off unless the local operator turns them on. Ten SEC codes, 194
+tests, and eight architecture decision records covering the choices behind it.
+
 ### [Cash Flow Simulator](https://github.com/mscott9160-web/cash-flow-simulator)
 
 Daily cash-flow projection for people who have enough money across the month
